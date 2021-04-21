@@ -1,0 +1,759 @@
+/* 
+Theme Name: Travel Theme
+Description: Mount Blanco: Explore the Way of Making the Memories
+Author: Raghav Pruthi
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+
+.row{
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 1240px;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:focus{
+    outline: none;
+}
+
+/* Pre-Header Section */
+.pre-header{
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    padding: 1rem 0;
+    background-color: rgba(0, 0, 0, 0.39);
+}
+
+.pre-header ul{    
+    margin: 0;
+    padding: 0;
+}
+
+.pre-header a{
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+}
+
+.pre-header li{
+    display: inline;    
+    margin-right: 1.5rem;
+}
+
+.pre-header i{
+    color: #ffdd00;
+}
+
+.pre-header .right ul{
+    text-align: right;
+}
+
+/* Pre-Header Section */
+/* Header Section */
+
+.header{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 3.5rem;
+    background-color: rgba(0, 0, 0, 0.39);
+}
+
+.header .container{
+    border-top: 3px solid #707484;
+}
+
+.header .navbar{
+    padding: 0;
+}
+
+.header .navbar-collapse{
+    width: 40%;
+    display: inline-flex;
+}
+
+.header .navbar-collapse ul{
+    flex-direction: row;
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+}
+
+.header .navbar-collapse a{
+    padding: 2.3rem 0;
+    margin-left: 2rem;
+    border-bottom: 3px solid transparent;
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Montserrat", sans-serif;
+    transition: all 0.3s ease-in-out;
+}
+
+.header .navbar-collapse a:hover{
+    border-color: #ffdd00;
+    color: #ffdd00;
+}
+
+/* Header Section */
+/* Banner Section */
+
+.banner .banner-slider img{
+    width: 100%;
+    height: auto;
+    background-color: black;
+}
+
+.banner .slider-item{
+    position: relative;
+}
+
+.banner .slider-caption{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.56);
+    color: #ffffff;
+    text-align: center;
+}
+
+.banner .slider-caption h1{
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 6rem;
+}
+
+.banner .slider-caption h2{
+    font-size: 41px;
+    color: #ffffff;
+    letter-spacing: 12px;
+    font-weight: 800;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+}
+
+.banner .slider-caption .caption p{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Lato",sans-serif;
+    margin: 2rem 0 0 0 !important;
+}
+
+.banner .slider-caption a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #000000;
+    font-weight: 500;
+    font-family: "Montserrat",sans-serif;
+}
+
+.banner .slider-caption button{
+    padding: 0.5rem 1rem;
+    background-color: #edd438;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+}
+
+/* Banner Section */
+/* About Section */
+
+.about-us{
+    background: url(http://localhost/mount_blanco/wp-content/uploads/2021/04/about-bg.png);
+    padding: 2rem 0;
+}
+
+.about-us .left h1{
+    font-size: 38px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    margin: 2rem 0 0;
+}
+
+.about-us .left h2{
+    font-size: 36px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.about-us .left p{
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    max-width: 34rem;
+    text-align: justify;
+    margin-top: 1rem;
+}
+
+.about-us .left .content li{
+    display: inline-block;
+    list-style-type: none;
+    width: 49%;
+    font-size: 17px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.about-us .left .content i{
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    margin-right: 0.5rem;
+}
+
+/* About Section */
+/* Featured Packages Section */
+
+.featured-packages{
+    padding: 6rem 0;
+}
+
+.featured-packages h1{
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    padding-bottom: 3rem;
+    text-align: center;
+    color: #000000;
+}
+
+.featured-packages img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.2rem;
+    margin: 0 auto;
+}
+
+.featured-packages .content{
+    border-radius: 0.5rem;
+    margin: 3rem;
+    background-color: #00a3ff;
+    padding-bottom: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.featured-packages .individual-package{
+    margin: 0.1rem auto;
+}
+
+.featured-packages .individual-package h6{
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 35px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 0rem;
+}
+
+.featured-packages .individual-package h3{
+    font-size: 25px;
+    line-height: 44px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 0rem;
+}
+
+.featured-packages .individual-package p{
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Lato",sans-serif;
+    margin-bottom: 0rem;
+}
+
+.featured-packages .individual-package a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    padding: 0.5rem 1rem;
+    background-color: #edd438;
+    border-radius: 0.5rem;
+}
+
+.featured-packages .slick-slide{
+    transition: all 0.3s ease-in-out;
+}
+
+.featured-packages .slick-center.slick-current{
+    transform: scale(1.18);
+}
+
+.slick-prev:before, .slick-next:before{
+    color: #00a3ff;
+}
+
+.slick-dots li.slick-active button:before{
+    color: #00a3ff;
+}
+
+/* Featured Packages Section */
+/* Packages Section */
+
+.packages{
+    padding: 4rem 0;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(http://localhost/mount_blanco/wp-content/uploads/2021/04/packages-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.packages .nav-tabs {
+    border: none;
+}
+
+.packages .row{
+    margin-top: 2rem;
+}
+
+.packages .nav-tabs .nav-link h2{
+    margin-bottom: 0;    
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Montserrat",sans-serif;
+}
+
+.packages .nav-tabs .nav-link{
+    border: 2px solid #ffffff;
+    margin-right: 0.5rem;
+    border-radius: 0.5rem;
+    padding: 0.2rem 1rem;
+    color: #ffffff;
+}
+
+.packages .nav-tabs .nav-item.show .nav-link, 
+.nav-tabs .nav-link.active,
+.packages .nav-tabs .nav-link:hover{
+    border-color: #ffdd00;
+    color: #000000;
+    background-color: #edd438;
+}
+
+.packages img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.2rem;
+    margin: 0 auto;
+}
+
+.packages .content{
+    border-radius: 0.5rem;
+    margin: 3rem 1.5rem;
+    background-color: #00a3ff;
+    padding-bottom: 0.8rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.packages .content:hover{
+    transform: scale(1.15);
+}
+
+.packages .individual-package{
+    margin: 0.1rem auto;
+}
+
+.packages h1{
+    color: #ffffff;
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.packages .individual-package h6{
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 35px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 0.3rem;
+    margin-bottom: 0rem;
+}
+
+.packages .individual-package h3{
+    font-size: 25px;
+    color: #ffffff;
+    font-weight: 900;
+    font-family: "Montserrat", sans-serif;
+    margin: 0.5rem 0;
+}
+
+.packages .individual-package p{
+    font-size: 17px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Lato",sans-serif;
+    margin-bottom: 0rem;
+}
+
+.packages .individual-package a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    padding: 0.5rem 1rem;
+    background-color: #edd438;
+    border-radius: 0.5rem;
+}
+
+/* Packages Section */
+/* FAQ Section */
+
+.faq{
+    padding: 6rem 0;
+}
+
+.faq h1{
+    font-size: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    padding-bottom: 3rem;
+    text-align: center;
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.faq .accordion-header{
+    border-bottom: 1px solid rgb(255, 221, 0);
+}
+
+.accordion-button:not(.collapsed){
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* FAQ Section */
+/* Contact Section */
+
+.contact-us{
+    padding-top: 4rem;
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(http://localhost/mount_blanco/wp-content/uploads/2021/04/contact-bg.jpg);
+    max-width: 100%;
+    position: relative;
+    padding-bottom: 4rem;
+    background-size: cover;
+}
+
+.contact-us::after{
+    content: "";
+    position: absolute;
+    background-image: url(http://localhost/mount_blanco/wp-content/uploads/2021/04/bg-end.png);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    left: 0;
+    bottom: -10px;
+    width: 100%;
+    height: 80px;
+}
+
+.contact-us .left iframe{
+    width: 100%;
+    height: 382px;
+}
+
+.contact-us .right h3{
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 44px;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.contact-us .right i{
+    color: #ffdd00;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
+
+.contact-us .right li{
+    list-style-type: none;
+    margin: 2rem 0;
+}
+
+.contact-us .right .button{
+    margin: 2rem 0 0;
+    text-align: center;
+}
+
+.contact-us .right .btn{
+    padding: 0.375rem 1.75rem;
+}
+
+.contact-us .right a{
+    text-decoration: none;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.contact-us .right a:hover{
+    color: #fff;
+}
+
+.modal-content{
+    padding: 2rem;
+    margin: 0 auto;
+    width: 100%;
+    background: url(http://localhost/mount_blanco/wp-content/uploads/2021/04/about-bg.png);
+}
+
+.modal-content h2{
+    font-size: 34px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    color: #000000;
+    margin: 0 0 1rem;
+    text-align: center;
+}
+
+.modal-content p{
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #000000;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.modal-content .wpcf7 form .wpcf7-response-output{
+    font-size: 13px;
+    font-weight: 500;
+    color: #000000;
+    border-color: #655959;
+}
+
+.modal-content .wpcf7-form input{
+    height: initial;
+}
+
+.wpcf7-form p{
+    margin-bottom: 1.5rem;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wpcf7-form input{
+    height: 50px;
+}
+
+.wpcf7-form textarea{
+    height: 150px;
+}
+
+.wpcf7-form-control.wpcf7-submit{
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    width: 35%;
+    text-transform: uppercase;
+    padding: 0.6rem 1rem;
+    border: 0px solid #1d293c;
+    box-shadow: 3px 3px 4px #1d293c;
+    background-color: #2c2c2c;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.wpcf7-form-control.wpcf7-submit:hover{
+    background-color: #2b2b2b;
+}
+
+.wpcf7-form .wpcf7-not-valid-tip {
+    color: #fff;
+    font-size: 11px;
+    font-weight: 600;
+    display: block;
+    max-width: 200px;
+    background: red;
+    padding: 2px 9px;
+    position: absolute;
+    bottom: -16px;
+    right: 7px;
+    border-radius: 2px;
+}
+
+.wpcf7-form .wpcf7-form-control-wrap {
+    position: relative;
+    width: 100%;
+}
+
+.wpcf7-form .wpcf7-not-valid-tip:before {
+    content: "";
+    position: absolute;
+    border: 4px;
+    border-color: transparent transparent red transparent;
+    border-style: solid;
+    top: -8px;
+    right: 16px;
+}
+
+.wpcf7-form .form-control{
+    background-color: #efefef;
+}
+
+/* Contact Section */
+/* Footer Section */
+
+.footer{
+    margin-top: 1rem;
+    padding: 3rem 0;
+    background-color: #ffffff;
+}
+
+.footer h4{
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.footer .follow-us h4,
+.footer .get-us-on h4{
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+.footer .about-column ul,
+.footer .explore-column ul,
+.footer .links-column ul{
+    padding: 0;
+}
+
+.footer .about-column a,
+.footer .explore-column a,
+.footer .links-column a{
+    text-decoration: none;
+    color: #000000;
+    display: block;
+    margin-bottom: 0.4rem;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.footer .media-icons-column ul{
+    padding: 0;
+    margin-bottom: 2rem;
+}
+
+.footer .media-icons-column li{
+    display: inline;
+    margin-right: 1.4rem;
+}
+
+.footer .media-icons-column i{
+    color: #000000;
+    background-color: transparent   ;
+    border-radius: 50%;
+    padding: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.footer .media-icons-column i:hover{
+    color: #000000;
+    background-color: #efd739;
+    transform: scale(1.2);
+}
+
+.footer .get-us-on h5{
+    padding: 1rem 0 0.5rem 0;
+}
+
+.footer .image-icons ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+.footer .image-icons li{
+    margin-right: 0.5rem;
+}
+
+.footer .bot-icon{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer .bot-icon a{
+    text-decoration: none;
+    color: #000000;
+    border: 2px solid #ffdd00;
+    border-radius: 50%;
+    background-color: #ffdd00;
+    padding: 0.5rem;
+}
+
+/* Footer Section */
+/* Post-Footer Section */
+
+.post-footer{
+    background-color: #efd739;
+    padding: 0.5rem 0;
+}
+
+.post-footer p{
+    margin: 0;
+    text-align: center;
+}
+
+.post-footer #myBtn{
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    z-index: 99;
+    border: none;
+    outline: 0;
+    background: none;
+    color: #00a3ff;
+    border-radius: 100%;
+    border: none;
+}
+
+/* Post-Footer Section */

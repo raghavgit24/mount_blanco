@@ -1,0 +1,751 @@
+/* X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) { ... }
+
+Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) { ... }
+
+XX-Large devices (larger desktops)
+No media query since the xxl breakpoint has no upper bound on its width */
+
+
+
+@media only screen and (min-width: 768px){
+
+    .navbar-toggler{
+        display: none;
+    }
+
+    .signup-modal,
+    .login-modal{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1399.98px){
+
+/* Header Section */
+
+    .custom-logo-link {
+        width: 39%;
+    }
+
+    .header .navbar-collapse {
+        width: 38%;
+    }
+
+    .header .navbar-collapse a{
+        letter-spacing: 0;
+    }    
+
+    .navbar{
+        justify-content: space-around;
+    }
+
+/* Header Section */
+/* Packages Section */
+
+.featured-packages .content{
+    margin: 3rem auto;
+    max-width: 18rem;
+}
+
+/* Packages Section */
+/* Featured Packages Section */
+
+.packages .content{
+    margin: 3rem auto;
+    max-width: 21rem;
+}
+
+/* Featured Packages & Packages Section */
+/* Banner Section */
+
+    .banner .slider-caption h1 {
+        font-size: 50px;
+        margin-top: 10rem;
+    }
+
+    .banner .slider-caption h2 {
+        font-size: 30px;
+    }
+
+    .banner .slider-caption p {
+        font-size: 18px;
+    }
+
+    button.slick-arrow{
+        margin: 0 2rem;
+    }
+
+/* Banner Section */
+
+    .contact-us::after{
+        bottom: -15px;
+    }
+
+/* Footer Section */
+
+    .footer .media-icons-column li {
+        margin-right: 1.1rem;
+    }
+
+    .footer .image-icons ul {
+        transform: scale(0.9);
+        display: flex;
+        margin: 0 -0.8rem;
+    }
+
+/* Footer Section */
+}
+
+@media only screen and (max-width: 1199.98px){
+
+/* Pre-Header Section */
+
+    .pre-header li{
+        margin-right: 1.3rem;
+    }
+
+/* Pre-Header Section */
+/* Header Section */
+
+    .custom-logo-link {
+        width: 25%;
+    }
+
+    .navbar-brand{
+        padding: 0;
+    }
+
+    .header .navbar-collapse a{
+        margin-left: 1.5rem;
+    }
+
+/* Header Section */
+/* Banner Section */
+
+    .banner .slider-caption h1 {
+        font-size: 55px;
+    }
+
+    .banner .slider-caption h2 {
+        font-size: 30px;
+    }
+    
+    .banner .slider-caption .caption p {
+        font-size: 15px;
+    }    
+
+    .banner .slider-caption button{
+        display: none;
+    }
+
+/* Banner Section */
+/* About Section */
+
+    .about-us .left h1{
+        font-size: 35px;
+    }
+
+    .about-us .left h2{
+        font-size: 32px;
+    }
+
+    .about-us .left p,
+    .about-us .left .services li{
+        font-size: 15px;
+    }
+
+    .about-us .left .content li{
+        width: 60%;
+    }
+
+/* About Section */
+/* Featured Packages Section */
+
+    .featured-packages {
+        padding: 4rem 0;
+    }
+
+    .featured-packages .slick-center.slick-current{
+        transform: none;
+    }
+
+    .featured-packages .content{
+        margin: 3rem auto;
+        max-width: 18rem;
+    }
+
+    button.slick-arrow {
+        margin: 0 3.5rem;
+    }
+
+/* Featured Packages Section */
+/* Packages Section */
+
+.packages .content{
+    margin: 1.5rem auto;
+    max-width: 16rem;
+}
+
+.packages .content:hover {
+    transform: scale(1.1);
+}
+
+/* Packages Section */
+/* FAQs Section */
+
+    .faq {
+        padding: 4rem 0;
+    }
+
+/* FAQs Section */
+/* Contact Section */
+
+    .contact-us .right h3{
+        font-size: 36px;
+    }
+
+    .contact-us .right i{
+        font-size: 1rem;
+        margin-right: 0.5rem;
+    }
+
+    .contact-us .right a{
+        font-size: 15.5px;
+    }
+
+    .contact-us::after{
+        bottom: -20px;
+    }
+
+/* Contact Section */
+/* Footer Section */
+
+    .footer .media-icons-column ul{
+        margin-bottom: 1rem;
+    }
+
+    .footer .media-icons-column li {
+        margin-right: 0.55rem;
+    }
+
+    .footer .follow-us h4 {
+        margin-bottom: 0.5rem;
+    }
+
+     
+    .footer .get-us-on h4{
+        margin-bottom: 0.25rem;
+    }
+
+    .footer .image-icons ul {
+        display: block;
+    }
+
+    .footer .image-icons img {
+        margin-bottom: 0.5rem;
+    }
+
+/* Footer Section */
+}
+
+@media only screen and (max-width: 991.98px){
+
+/* Pre-Header Section */
+
+    .pre-header{
+        display: none;
+    }
+
+    .pre-header .left{
+        display: none;
+    }
+
+    .pre-header .right ul {
+        text-align: center;
+    }
+
+/* Pre-Header Section */
+/* Header Section */
+
+    .header{
+        position: static;
+        background-image: linear-gradient(to right, rgb(236 207 13), rgb(173 154 39));
+        /* background-image: linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.2)); */
+    }
+
+    .header .container{
+        border-top: none;
+    }
+
+    .custom-logo-link {
+        width: 15%;
+    }
+
+    .header .navbar-collapse {
+        width: 42%;
+    }
+
+    .header .navbar-collapse a {
+        margin-left: 1.2rem;
+        font-size: 15px;
+    }
+
+/* Header Section */
+/* Banner Section */
+
+    .banner .slider-caption h1 {
+        font-size: 45px;
+        margin-top: 0;
+    }
+
+/* Banner Section */
+/* About Section */
+
+    .about-us{
+        padding: 0;
+    }
+
+    .about-us .left h1,
+    .about-us .left h2{
+        text-align: center;
+    }
+
+    .about-us .left p{
+        max-width: 100%;
+    }
+
+    .about-us .left .content {
+        margin: 0 auto;
+        max-width: 90%;
+    }
+
+    .about-us .right img{
+        display: none;
+    }
+
+    .about-us .left .content li {
+        width: 49%;
+    }
+
+/* About Section */
+/* Featured Packages Section */
+
+    .featured-packages .content{
+        margin: 0.5rem auto;
+        max-width: 19rem;
+    }
+
+    .featured-packages .slick-center.slick-current{
+        transform: none;
+    }
+
+    button.slick-arrow{
+        margin: 0 1.6rem;
+    }
+
+/* Featured Packages Section */
+/* Packages Section */
+
+    .packages .nav-tabs .nav-link{
+        padding: 0.2rem 0.75rem;
+    }
+
+    .packages .content {
+        margin: 1.5rem auto;
+        max-width: 19rem;
+    }
+
+/* Packages Section */
+/* FAQs Section */
+
+    .faq h1 {
+        font-size: 43px;
+    }
+
+/* FAQs Section */
+/* Contact Section */
+
+.contact-us .right h3 {
+    font-size: 40px;
+}
+
+.contact-us .right h3 {
+    font-size: 40px;
+}
+
+.contact-us::after{
+    bottom: -25px;
+}
+
+/* Contact Section */
+/* Footer Section */
+
+    .footer{
+        margin-top: 0;
+        padding-bottom: 1rem;
+    }
+
+    .footer .connect-section{
+        padding-top: 2rem;
+    }
+
+    .footer .image-icons ul {
+        display: inline-flex;
+    }
+
+/* Footer Section */
+}
+
+@media only screen and (max-width: 767.98px){
+
+/* Header Section */
+
+    nav.navbar .navbar-collapse.collapse:not(.show){
+        display: none;
+    }
+
+    nav.navbar .navbar-collapse ul{
+        flex-direction: column;
+        margin: 0;
+        margin: 1rem 0;
+        width: 100%;
+    }
+
+    .navbar-toggler:focus{
+        box-shadow: none;
+    }
+
+    nav.navbar .navbar-collapse li {
+        padding: 0.2rem 0;
+        border: 1px solid #000000;
+        border-radius: 2rem;
+        border-color: #ffffff;
+        margin: 0.5rem 0;
+        width: 20rem;
+        text-align: center;
+        transition: all 0.3s ease-in-out;
+    }
+
+    nav.navbar .navbar-collapse li:hover{
+        border-color: #2c2c2c;
+    }
+
+    nav.navbar .navbar-collapse li:hover a{
+        color: #2c2c2c;
+    }
+
+    .header .navbar-collapse a {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .header .navbar-collapse {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .header i{
+        color: #ffffff;
+    }
+
+/* Header Section */
+/* Banner Section */
+
+    .banner .slider-caption h1{
+        font-size: 30px;
+    }
+
+    .banner .slider-caption h2{
+        font-size: 18px;
+    }
+
+    .banner .slider-caption p{
+        display: none;
+    }
+
+/* Banner Section */
+/* About Section */
+
+    .about-us{
+        padding: 1rem 0;
+    }
+
+    .about-us .left h1{
+        margin-top: 0.5rem;
+        font-size: 30px;
+    }
+
+    .about-us .left h2{
+        font-size: 18px;
+    }
+
+    .about-us .left .content li {
+        font-size: 15px;
+    }
+
+/* About Section */
+/* Featured Packages Section */
+
+    .featured-packages .content{
+        margin: 2rem auto;
+        max-width: 18rem;
+    }
+
+    .featured-packages .slick-center.slick-current{
+        transform: scale(1.15);
+    }
+
+    button.slick-arrow{
+        margin: 0 3rem;
+    }
+
+/* Featured Packages Section */
+/* Packages Section */
+
+    .featured-packages h1,
+    .packages h1{
+        font-size: 44px;
+    }
+
+    .packages .nav-tabs .nav-link {
+        padding: 0.2rem 0.8rem;
+        margin-bottom: 1rem;
+        margin-right: 1rem;
+    }
+
+    .packages .content{
+        margin: 1.5rem auto;
+        max-width: 24rem;
+    }
+
+/* Packages Section */
+/* FAQs Section */
+
+    .faq h1 {
+        font-size: 30px;
+    }
+
+/* FAQs Section */
+/* Contact Section */
+
+    .contact-us .left iframe{
+        height: 16rem;
+    }
+
+    .contact-us .right ul{
+        margin: 0 auto;
+        max-width: 20rem;
+    }
+
+    .contact-us .right li{
+        margin: 1.5rem 0;
+    }
+
+    .contact-us::after{
+        bottom: -30px;
+    }
+
+/* Contact Section */
+/* Footer Section */
+
+    .footer h4{
+        font-size: 21px;
+    }
+
+/* Footer Section */
+}
+
+@media only screen and (max-width: 575.98px){
+
+    .featured-packages,
+    .packages,
+    .faq{
+        padding: 3rem 0;
+    }
+
+/* Pre Header Section */
+
+    .pre-header .right .icon{
+        display: none;
+    }
+
+/* Pre Header Section */
+/* Header Section */
+
+    .header .custom-logo-link {
+        transform: scale(0.7);
+    }
+
+    nav.navbar .navbar-collapse li {
+        width: 18rem;
+        padding: 0.1rem 0;
+    }
+
+    .header .navbar-collapse a{
+        font-size: 16px;
+    }
+
+/* Header Section */
+/* Banner Section */
+
+    .banner .slider-caption h1{
+        font-size: 22px;
+    }
+
+    .banner .slider-caption h2{
+        font-size: 16px;
+        letter-spacing: 0.3rem;
+    }
+
+/* Banner Section */
+/* About Section */
+
+    .about-us .left h1{
+        font-size: 22px;
+    }
+
+    .about-us .left h2{
+        font-size: 16px;
+    }
+
+    .about-us .left p{
+        font-size: 12px;
+    }
+
+    .about-us .left .content li{
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .about-us .left .services{
+        display: none;
+    }
+
+/* About Section */
+/* Featured Packages Section */
+
+    .featured-packages .slick-center.slick-current{
+        transform: none;
+    }
+
+    .featured-packages h1{
+        padding-bottom: 1rem;
+    }
+
+    .featured-packages h1, .packages h1 {
+        font-size: 25px;
+    }
+
+    .featured-packages .content{
+        margin: 1rem auto 2rem;
+        max-width: 16rem;
+    }
+
+    .featured-packages .content{
+        margin: 0.5rem auto;
+        max-width: 17rem;
+    }
+
+/* Featured Packages Section */
+/* Packages Section */
+
+    .packages .nav-tabs .nav-link{
+        margin-right: 0.5rem;
+        font-size: 11px;
+    }
+
+    .packages h1{
+        padding-bottom: 2rem;
+    }
+
+/* Packages Section */
+/* FAQs Section */
+
+    .faq h1 {
+        font-size: 27px;
+    }
+
+/* FAQs Section */
+/* Contact Section */
+
+    .contact-us{
+        padding-bottom: 3rem;
+    }
+
+    .contact-us .right h3 {
+        font-size: 35px;
+    }
+
+    .contact-us .right p{
+        margin-block-end: 1rem;
+    }
+
+    .contact-us .right a {
+        font-size: 13.5px;
+    }
+
+    .contact-us::after{
+        bottom: -35px;
+    }
+
+/* Contact Section */
+/* Footer Section */
+
+    .footer .about-column,
+    .footer .explore-column,
+    .footer .links-column,
+    .footer .connect-section .follow-us,
+    .footer .connect-section .get-us-on
+    {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .footer .about-column h4,
+    .footer .explore-column h4,
+    .footer .links-column h4,
+    .footer .connect-section .follow-us h4,
+    .footer .connect-section .get-us-on h4
+    {
+        margin-bottom: 0.5rem;
+    }
+
+    .footer .connect-section{
+        padding: 0;
+    }
+
+    .footer .media-icons-column li {
+        margin-right: 1.5rem;
+    }
+
+/* Footer Section */
+/* Contact Modal Section */
+
+    .contact-us .right .modal-content form button{
+        width: 49%;
+    }
+
+    .contact-us .modal-content{
+        padding: 1rem;
+    }
+
+/* Contact Modal Section */
+
+    .wpcf7-form-control.wpcf7-submit{
+        width: 52%;
+    }
+}
